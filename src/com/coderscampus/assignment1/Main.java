@@ -9,7 +9,6 @@ public class Main {
 		UserInputReceiver userInputReceiver = new UserInputReceiver(scanner);
 		Double initialInvestment = userInputReceiver.getInitialInvestment();
 		Double interestRate = userInputReceiver.getInterestRate();
-		@SuppressWarnings("unused")
 		CompoundInterestCalculator calc = new CompoundInterestCalculator();
 		calc.calculateInterest(initialInvestment, interestRate);
 		scanner.close();
