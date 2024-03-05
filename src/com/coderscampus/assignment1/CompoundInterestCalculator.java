@@ -7,7 +7,7 @@ public class CompoundInterestCalculator {
 		for (int i = 1; i <= 30; ++i) {
 			currentValue = currentValue * (interestRate + 1.0d);
 			if (i % 5 == 0) {
-				System.out.println("After " + i + " years, you would have: " + currentValue.intValue());
+				System.out.println("After " + i + " years, you would have: " + currentValue.longValue());
 			}
 		}
 	}
